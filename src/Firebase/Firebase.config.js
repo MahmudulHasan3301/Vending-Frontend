@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey:import.meta.env.VITE_apiKey ,
-  authDomain:import.meta.env.VITE_authDomain ,
-  projectId:import.meta.env.VITE_projectId ,
-  storageBucket:import.meta.env.VITE_storageBucket ,
-  messagingSenderId:import.meta.env.VITE_messagingSenderId,
-  appId:import.meta.env.VITE_appId 
+  apiKey: "AIzaSyARNYCfME-40Nn4ql6RNb2ybrCtD3-40Yc",
+  authDomain: "myths-of-law.firebaseapp.com",
+  projectId: "myths-of-law",
+  storageBucket: "myths-of-law.firebasestorage.app",
+  messagingSenderId: "76267796811",
+  appId: "1:76267796811:web:181c53da6036d1112b50ce"
 };
 
 // Initialize Firebase

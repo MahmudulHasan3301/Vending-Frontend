@@ -17,10 +17,10 @@ const Checkout = () => {
 
     setIsLoading(true);
 
-    fetch(`${API_BASE_URL}/api/redeem-code`, {
+    fetch(`${API_BASE_URL}/api/dispense-product`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ dispenseCode: code, machineId: MACHINE_ID }),
+      body: JSON.stringify({ dispenseCode: code, deviceId: MACHINE_ID }),
     })
       .then(res => res.json())
       .then(data => {
